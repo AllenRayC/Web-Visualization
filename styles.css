@@ -1,0 +1,38 @@
+body {
+  background: #f1f1f1;
+}
+
+h2 {
+  color:#00998E;
+  font-weight: bold;
+}
+
+h3 {
+  color:#00998E;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar {
+  background: #FFFFFF;
+}
+
+.navbar-brand {
+  background: #00998E;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.med_img {
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.large_img {
+  max-height: 400px;
+  max-width: 550px;
+}
+
+.jumbotron {
+  background: #FFFFFF;
+}

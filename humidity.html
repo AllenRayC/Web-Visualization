@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization Dashboard (Latitude)</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-left">
+            <li><a class="navbar-brand" href="index.html" style="color:white;">Latitude</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="maxtemp.html">vs. Max Temperature</a></li>
+                <li><a href="humidity.html">vs. Humidity</a></li>
+                <li><a href="cloudiness.html">vs. Cloudiness</a></li>
+                <li><a href="windspeed.html">vs. Wind Speed</a></li>
+              </ul>
+            </li>
+            <li><a href="comparison.html">Comparison</a></li>
+            <li><a href="data.html">Data</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="jumbotron">
+          <h2>Humidity</h2>
+          <hr class="my-4">
+          <img class="large_img" src="Resources\assets\images\Fig2.png" alt="Latitude vs Humidity">
+          <p>
+            There is not a strong relationship between latitude and humidity. However, there seems to be a concentration of high humidity for cities close to the equator. There are also few cities with low humidity around the equator.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-5 col-sm-12">
+        <div class="jumbotron">
+          <h2 class="display-4">Visualizations</h2>
+          <hr class="my-4">
+          <div class="row">
+            <div class="col-md-6 col-sm-3">
+              <a href="maxtemp.html" class="thumbnail">
+                <img src="Resources\assets\images\Fig1.png" alt="Latitude vs. Max Temp.">
+              </a>
+            </div>
+            <div class="col-md-6 col-sm-3">
+              <a href="humidity.html" class="thumbnail">
+                <img src="Resources\assets\images\Fig2.png" alt="Latitude vs Humidity">
+              </a>
+            </div>
+            <div class="col-md-6 col-sm-3">
+              <a href="cloudiness.html" class="thumbnail">
+                <img src="Resources\assets\images\Fig3.png" alt="Latitude vs Cloudiness">
+              </a>
+            </div>
+            <div class="col-md-6 col-sm-3">
+              <a href="windspeed.html" class="thumbnail">
+                <img src="Resources\assets\images\Fig4.png" alt="Latitude vs Wind Speed">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
